@@ -140,3 +140,18 @@ I know my logic is not good enough, so I will edit some and expect your advise.
 ## Release Infos >>
 
 - 2014.10.11 : very first commit(ver.0.01)
+
+
+# List of paging keys >>
+
+- currentPage : current page
+- totalPages  : total page counts 
+- pageEntry   : Integer array of Unit(page group) 
+- ablePrv	  : If currentPage is lower than 1, it returns false
+- ableNxt	  : If currentPage is the last one, it returns false
+- ablePrvUnit : If currentUnit is lower than 1, it returns false
+- ableNxtUnit : If currentUnit is the last one, it returns false
+- prvUnitPage : Page number of when you press << button. If current page is 37, this will be 21
+- nxtUnitPage : Page number of when you press >> button. If current page is 37, this will be 41
+
+- page		  : Use this when you redirect to list from view 
