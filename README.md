@@ -1,13 +1,13 @@
 NoMorePaging
 ============
 
-Purpose of this library >>
+## Purpose of this library >>
 
 Every web page needs paging and it is really annoying to implement every time.
 This library(NoMorePaging) is made to handle paging logic easily in java, jsp based web.
 
 
-Usage >>
+## Usage >>
 
 First, you generate PageInfos Object in Java source code.
 
@@ -22,6 +22,8 @@ And you can modify follow paging informations by set method(It is restricted) :
 
 Below is a simple example with Spring MVC project.
 I recommend to use this code in Service layer, not in controller.
+
+### In Java :
 
 ``` java
 
@@ -47,11 +49,12 @@ I recommend to use this code in Service layer, not in controller.
 
 ```
 
-
 And You can find those information in JSP like below.
 It is in key what you named. In this case, it is "pageInfos".
 
 So you can find ${[model name].[key what you named].[paging keywords]} 
+
+### In JSP :
 
 ```jsp
 
@@ -80,13 +83,15 @@ So you can find ${[model name].[key what you named].[paging keywords]}
 
 ```
 
+That is all you need to get paging informations for web.
 
-Note >>
+
+## Note >>
 
 It can handle view to list paging, if It knows what is the index of this contents.
 For Example you can handle view logic like below.
 
-In Java :
+### In Java :
 
 ``` java
 
@@ -111,7 +116,7 @@ In Java :
 
 ```
 
-In JSP :
+### In JSP :
 
 ``` jsp
 
@@ -126,12 +131,12 @@ In JSP :
 ```
 
 
-Note >>
+## Note >>
 
 Thanks for getting interesting with my project. And feel free to edit and use.
 I know my logic is not good enough, so I will edit some and expect your advise.
 
 
-Release Infos >>
+## Release Infos >>
 
 - 2014.10.11 : very first commit(ver.0.01)
