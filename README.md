@@ -7,7 +7,7 @@ Every web page needs paging and it is really annoying to implement every time.
 This library(NoMorePaging) is made to handle paging logic easily in java, jsp based web.
 
 
-## Usage >>
+## Usage - Handling in List page >>
 
 First, you generate PageInfos Object in Java source code.
 
@@ -86,7 +86,7 @@ So you can find ${[model name].[key what you named].[paging keywords]}
 That is all you need to get paging informations for web.
 
 
-## Note >>
+## Usage - Handling in View page (How to view to current list page) >>
 
 It can handle view to list paging, if It knows what is the index of this contents.
 For Example you can handle view logic like below.
