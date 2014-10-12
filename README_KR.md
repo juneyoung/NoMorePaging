@@ -163,7 +163,7 @@ NoMorePaging
 # 제공되는 메소드
 
 | 메소드명 | 파라미터 | 반환값 | 기능 |
-|-|-|-|-|
+|--------|--------|------|-----|
 |public Map<String, Object> getPageInfos(int currentPage)| 현재 페이지 | 맵(키는 '라이브러리가 제공하는 키 목록 항목 참조') | 현재 페이지에서 필요한 페이징 정보를 반환 |
 |public Map<String, Object> getCurrentPageRange(int currentPage)| 현재 페이지 | 맵(키는 'start'와 'end') | 현재 페이지에 필요한 레코드를 가져오기 위해 시작값과 끝값을 계산해서 반환 |
 |public Map<String, Object> getCurrentPageRangeForView(int contentOrder)| 뷰에서 현재 콘텐츠의 순서 | 맵(키는 'page') | 뷰에서 리스트 전환시 컨텐츠 순서를 가지고 페이지를 계산해서 반환 |
