@@ -2,7 +2,7 @@ NoMorePaging
 ============
 
 ### <a href="README_KR.md">KOREAN</a>
-### <a href="README.md">FRENCH</a>
+### <a href="README_FR.md">FRENCH</a>
 
 
 ## Purpose of this library >>
