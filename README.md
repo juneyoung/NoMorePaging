@@ -1,6 +1,10 @@
 NoMorePaging
 ============
 
+### <a href="README_KR.md">KOREAN</a>
+### <a href="README.md">FRENCH</a>
+
+
 ## Purpose of this library >>
 
 Every web page needs paging and it is really annoying to implement every time.

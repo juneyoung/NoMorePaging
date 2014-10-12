@@ -1,6 +1,10 @@
 NoMorePaging
 ============
 
+### <a href="README_KR.md">Coréen</a>
+### <a href="README_FR.md">Anglais</a>
+
+
 ## Objectif de cette library >>
 
 Chaque page web doit pagination et il est vraiment ennuyeux à mettre en œuvre à chaque fois.
