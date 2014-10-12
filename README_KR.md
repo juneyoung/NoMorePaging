@@ -159,3 +159,11 @@ NoMorePaging
 - nxtUnitPage : 다음 페이지그룹의 페이지 넘버. 예를 들어 현재가 37 페이지라면, 이 값은 41이 됩니다
 
 - page		  : 뷰에서 해당 컨텐츠가 돌아가야 하는 리스트의 페이지 
+
+# 제공되는 메소드
+
+| 메소드명 | 파라미터 | 반환값 | 기능 |
+|--------|--------|------|-----|
+|public Map<String, Object> getPageInfos(int currentPage)| | | |
+|public Map<String, Object> getCurrentPageRange(int currentPage)|| | | |
+|public Map<String, Object> getCurrentPageRangeForView(int contentOrder)| | | |
