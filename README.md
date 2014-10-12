@@ -142,6 +142,15 @@ I know my logic is not good enough, so I will edit some and expect your advise.
 - 2014.10.11 : very first commit(ver.0.01)
 
 
+# Methods
+
+| method name | parameters | returns | detail |
+|-------------|------------|---------|--------|
+|Map<String, Object> getPageInfos(int currentPage)| current page no | Map<String, Object>(ref. 'List of paging keys') | This method returns Informations of paging |
+|Map<String, Object> getCurrentPageRange(int currentPage)| current page no | Map<String,Object>(keys are 'start' and 'end') | This method returns map with keys 'start' and 'end'. These numbers means rownum of records which showed in this page |
+|Map<String, Object> getCurrentPageRangeForView(int contentOrder)| current contents order no | Map<String,Object>(key is 'page') | If contents order is 27 and records per page is 10, This method returns {page="2"} |
+
+
 # List of paging keys >>
 
 - currentPage : current page
